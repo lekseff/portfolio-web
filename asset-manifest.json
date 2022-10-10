@@ -1,14 +1,26 @@
 {
   "files": {
     "main.css": "./static/css/main.77707856.css",
-    "main.js": "./static/js/main.cba9bb59.js",
+    "main.js": "./static/js/main.adfb75a9.js",
+    "static/media/modern-gallery.jpg": "./static/media/modern-gallery.3710c82644ea6d20161b.jpg",
+    "static/media/top-task-list.jpg": "./static/media/top-task-list.829b473d83a44cb241f4.jpg",
+    "static/media/clock.jpg": "./static/media/clock.30a8d3cd880486d6e128.jpg",
+    "static/media/image-gallery.jpg": "./static/media/image-gallery.749f5f8cf9c9ee7e7102.jpg",
+    "static/media/card-validator.jpg": "./static/media/card-validator.0c4833841eb35e4d6d2d.jpg",
+    "static/media/training.jpg": "./static/media/training.49ac867e6b584592192f.jpg",
+    "static/media/retro-game.jpg": "./static/media/retro-game.69ba3f26c8aec5231811.jpg",
+    "static/media/timeline.jpg": "./static/media/timeline.3a5e4dd7670388dcb588.jpg",
+    "static/media/goblin-game.jpg": "./static/media/goblin-game.9e914e45dafe29d502dd.jpg",
+    "static/media/chat.jpg": "./static/media/chat.b712b4bc6afc2aeb4df9.jpg",
     "static/media/trello.jpg": "./static/media/trello.5a15fe32b5e6a45a67d1.jpg",
+    "static/media/list-editor.jpg": "./static/media/list-editor.7281e31d057cdfc5cfe6.jpg",
+    "static/media/converter.jpg": "./static/media/converter.9fa62642744a49ae62f2.jpg",
     "index.html": "./index.html",
     "main.77707856.css.map": "./static/css/main.77707856.css.map",
-    "main.cba9bb59.js.map": "./static/js/main.cba9bb59.js.map"
+    "main.adfb75a9.js.map": "./static/js/main.adfb75a9.js.map"
   },
   "entrypoints": [
     "static/css/main.77707856.css",
-    "static/js/main.cba9bb59.js"
+    "static/js/main.adfb75a9.js"
   ]
 }
