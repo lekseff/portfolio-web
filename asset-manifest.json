@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.2114baa2.css",
-    "main.js": "./static/js/main.5da54a3d.js",
+    "main.js": "./static/js/main.f43ac539.js",
     "static/media/modern-gallery-min.jpg": "./static/media/modern-gallery-min.644ca15b501ccb4873fd.jpg",
     "static/media/top-task-list-min.jpg": "./static/media/top-task-list-min.96788b72875f7dc04e93.jpg",
     "static/media/clock-min.jpg": "./static/media/clock-min.bd3705c6253c2eecf12e.jpg",
+    "static/media/image-gallery-min.jpg": "./static/media/image-gallery-min.2be93722394ec4f66432.jpg",
     "static/media/bosanoga.jpg": "./static/media/bosanoga.52cdcd0123f7ce629a2c.jpg",
-    "static/media/image-gallery-min.jpg": "./static/media/image-gallery-min.cae02895e941d2b7f87b.jpg",
     "static/media/card-validator-min.jpg": "./static/media/card-validator-min.d9cb41cb5376e64a6430.jpg",
     "static/media/training-min.jpg": "./static/media/training-min.2efcb2d3f0e73ab2a57c.jpg",
     "static/media/trello-min.jpg": "./static/media/trello-min.e0a0ef14002b3a2990af.jpg",
@@ -18,10 +18,10 @@
     "static/media/list-editor-min.jpg": "./static/media/list-editor-min.bd7df59bc4f5cb3bbc13.jpg",
     "index.html": "./index.html",
     "main.2114baa2.css.map": "./static/css/main.2114baa2.css.map",
-    "main.5da54a3d.js.map": "./static/js/main.5da54a3d.js.map"
+    "main.f43ac539.js.map": "./static/js/main.f43ac539.js.map"
   },
   "entrypoints": [
     "static/css/main.2114baa2.css",
-    "static/js/main.5da54a3d.js"
+    "static/js/main.f43ac539.js"
   ]
 }
