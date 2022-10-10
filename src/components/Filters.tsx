@@ -11,10 +11,10 @@ function Filters({ items, active, changeFilter }: FiltersProps) {
     <div className='filters'>
       {items.map((item, idx) => (
         <button
-          className={`filters__button ${active === item ? 'active' : ''}`}
-          onClick={() => changeFilter(item)}
+          className={`filters__button ${active === item.value ? 'active' : ''}`}
+          onClick={() => changeFilter(item.value)}
           key={idx}
-        >{item}</button>
+        >{item.title}</button>
       ))}
     </div>
   );

@@ -6,9 +6,8 @@ body {
   font-weight: normal;
   min-height: 100vh;
   color: $primary-color;
-  // background-color: #f6faff;
-  background: linear-gradient(0deg, rgb(244, 244, 244) 60%, rgb(255, 255, 255));
-
+  // background: linear-gradient(0deg, rgb(244, 244, 244) 60%, rgb(255, 255, 255));
+  background: linear-gradient(180deg, rgb(222, 251, 255) 18%, rgb(135, 217, 229));
 }
 
 .container {
@@ -42,6 +41,7 @@ body {
     color: $primary-color;
     border: 1px solid gray;
     padding: 4px 16px;
+    border-radius: 6px;
     background-color: transparent;
     cursor: pointer;
     transition: all 150ms ease-out;
@@ -51,6 +51,7 @@ body {
   }
   &__button.active {
     color: white;
+    border: 1px solid transparent;
     background-color: $active-color;
   }
   &__button:hover {
@@ -69,7 +70,7 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid gray;
+  border: 1px solid #c8c8c8;
   border-radius: 8px;
   overflow: hidden;
   max-width: 340px;
@@ -78,9 +79,11 @@ body {
   transition: all 200ms ease-out;
   margin: 10px;
   background-color: #fff;
+  border-top: none;
 
   &:hover {
-    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    // box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.3);
     transition: all 150ms ease-out;
   }
 

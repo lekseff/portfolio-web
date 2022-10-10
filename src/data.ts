@@ -1,24 +1,26 @@
 import {v4} from 'uuid';
-import trello from './assets/trello.jpg';
-import retroGame from './assets/retro-game.jpg';
-import chat from './assets/chat.jpg';
-import listEditor from './assets/list-editor.jpg';
-import imageGallery from './assets/image-gallery.jpg';
-import topTaskList from './assets/top-task-list.jpg';
-import goblinGame from './assets/goblin-game.jpg';
-import cardValidator from './assets/card-validator.jpg';
-import modernGallery from './assets/modern-gallery.jpg';
-import timeline from './assets/timeline.jpg';
-import converter from './assets/converter.jpg';
-import training from './assets/training.jpg';
-import clock from './assets/clock.jpg';
+import trello from './assets/trello-min.jpg';
+import retroGame from './assets/retro-game-min.jpg';
+import chat from './assets/chat-min.jpg';
+import listEditor from './assets/list-editor-min.jpg';
+import imageGallery from './assets/image-gallery-min.jpg';
+import topTaskList from './assets/top-task-list-min.jpg';
+import goblinGame from './assets/goblin-game-min.jpg';
+import cardValidator from './assets/card-validator-min.jpg';
+import modernGallery from './assets/modern-gallery-min.jpg';
+import timeline from './assets/timeline-min.jpg';
+import converter from './assets/converter-min.jpg';
+import training from './assets/training-min.jpg';
+import clock from './assets/clock-min.jpg';
+import bot from './assets/bot-min.jpg';
+import bosanoga from './assets/bosanoga.jpg';
 
 
-// export const filters = [
-//   { name: 'Все', value: 'all' },
-//   { name: 'React', value: 'react' },
-//   { name: 'JavaScript', value: 'javascript' },
-// ];
+export const filters = [
+  { title: 'Все', value: 'all' },
+  { title: 'React', value: 'react' },
+  { title: 'JavaScript', value: 'javascript' },
+];
 
 // export const filters = [
 //   { all: 'Все' },
@@ -27,13 +29,16 @@ import clock from './assets/clock.jpg';
 // ];
 
 // enum FiltersItems {all, React, JavaScript}
+
+// Технология
 const stack = {
-  javascript: 'JavaScript',
-  react: 'React',
+  javascript: 'javascript',
+  react: 'react',
 }
 
-export const filters: string[] = ['all', 'React', 'JavaScript']; // список фильтров
+// export const filters: string[] = ['all', 'React', 'JavaScript']; // список фильтров
 
+// Список проектов
 export const projects = [
   {
     id: v4(),
@@ -154,21 +159,20 @@ export const projects = [
   },
   {
     id: v4(),
-    title: '',
-    desc: '',
+    title: 'Бот',
+    desc: 'Бот предназначен как для хранения информации в виде текстовых сообщений, изображений, аудио и видео файлов. Также бот имеет интеграцию с несколькими сервисами API. Он может получать погоду используя Ваше местоположение, новости, курсы таких валют как доллар(USD), евро(EUR), Bitcoin(BTC). В данном проекте имеется серверная часть.',
     stack: stack.javascript,
-    imagesUrl: modernGallery,
-    githubUrl: '',
+    imagesUrl: bot,
+    githubUrl: 'https://github.com/lekseff/Bot_Frontend',
     linkUrl: '',
   },
   {
     id: v4(),
-    title: '',
-    desc: '',
-    stack: stack.javascript,
-    imagesUrl: modernGallery,
-    githubUrl: '',
-    linkUrl: '',
-  },
-  
+    title: 'Онлайн магазин',
+    desc: 'Небольшой онлайн магазин.',
+    stack: stack.react,
+    imagesUrl: bosanoga,
+    githubUrl: 'https://github.com/lekseff/online-store',
+    linkUrl: 'https://lekseff.github.io/online-store/',
+  },  
 ]
